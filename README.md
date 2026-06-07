@@ -1,4 +1,4 @@
-# 🃏 MTG Oracle
+# 🃏 MTG Oracle Virtual Judge
 
 A Retrieval-Augmented Generation (RAG) system for Magic: The Gathering rules and card evaluation. Combines a **fine-tuned phi-2 model** with a **ChromaDB vector database** of 76,704 official Scryfall rulings to provide accurate, grounded answers about MTG rules interactions and card assessments.
 
