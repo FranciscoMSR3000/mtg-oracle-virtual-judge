@@ -183,7 +183,7 @@ The model was fine-tuned on Google Colab using a T4 GPU (~3 hours):
 | Final training loss | 0.80 |
 | Final validation loss | 0.78 |
 
-The LoRA adapter (~10MB) is published at [huggingface.co/Razo3000/mtg-oracle](https://huggingface.co/Razo3000/mtg-oracle).
+The LoRA adapter (~10MB) is published at [huggingface.co/Razo3000/mtg-oracle](https://huggingface.co/Razo3000/mtg-oracle-virtual-judge).
 Loading requires the phi-2 base model + this adapter applied on top.
 
 ---
