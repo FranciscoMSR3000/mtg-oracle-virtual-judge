@@ -110,7 +110,7 @@ Each pair follows ChatML format:
 
 ### Prerequisites
 
-- Python 3.11 recommended (3.14 works but runs on CPU only — no CUDA support yet)
+- Python 3.11 recommended (3.14 works but runs on CPU only)
 - ~10GB disk space for phi-2 model weights + ChromaDB
 
 ### 1. Clone the repository
@@ -185,17 +185,6 @@ The model was fine-tuned on Google Colab using a T4 GPU (~3 hours):
 
 The LoRA adapter (~10MB) is published at [huggingface.co/Razo3000/mtg-oracle](https://huggingface.co/Razo3000/mtg-oracle).
 Loading requires the phi-2 base model + this adapter applied on top.
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Python 3.11 + CUDA support for GPU inference (10-50x faster)
-- [ ] Metadata filtering in ChromaDB (filter by card name, set, format)
-- [ ] Deploy model as API endpoint (FastAPI + GPU server)
-- [ ] Deploy interface to Streamlit Cloud
-- [ ] Expand evaluation dataset (currently only 12 hand-crafted examples)
-- [ ] RAGAS evaluation suite to measure retrieval and generation quality
 
 ---
 
